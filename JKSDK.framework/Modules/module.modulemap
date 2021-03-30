@@ -1,0 +1,6 @@
+framework module JKSDK {
+  umbrella header "JKSDK.h"
+
+  export *
+  module * { export * }
+}
