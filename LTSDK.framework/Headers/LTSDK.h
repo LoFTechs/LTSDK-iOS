@@ -37,6 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)updateNotificationKeyWithAPNSToken:(NSString *)apnsToken voipToken:(NSString *)voipToken completion:(void (^)(LTResponse * _Nonnull response))completion;
 + (void)updateNotificationKeyWithAPNSToken:(NSString *)apnsToken voipToken:(NSString *)voipToken cleanOld:(BOOL)cleanOld completion:(void (^)(LTResponse * _Nonnull response))completion;
++ (void)updateNotificationKeyWithAPNSToken:(NSString *)apnsToken voipToken:(NSString *)voipToken cleanOld:(BOOL)cleanOld isDebug:(BOOL)isDebug completion:(void (^)(LTResponse * _Nonnull response))completion;
 
 + (void)terminateWithUserID:(NSString * _Nonnull)userID;
 

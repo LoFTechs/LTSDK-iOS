@@ -27,7 +27,7 @@ typedef NS_ENUM(NSInteger, LTCallKitProxyState) {
 @end
 
 @interface LTCallKitProxy : NSObject
-@property (weak, nonatomic) id<LTCallKitProxyDelegate> delegate;
+@property (strong, nonatomic) id<LTCallKitProxyDelegate> delegate;
 + (LTCallKitProxy *)sharedInstance;
 
 #pragma mark - config

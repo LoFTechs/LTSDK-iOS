@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "LTUser.h"
+#import "LTFileInfo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -43,6 +44,14 @@ NS_ASSUME_NONNULL_BEGIN
 + (LTStorageAction *)createUploadLinkActionWithRemotePath:(NSString * _Nonnull)remotePath fileName:(NSString * _Nonnull)fileName contentType:(NSString * _Nonnull)contentType expireMinute:(NSInteger)expireMinute ownerID:(NSString * _Nonnull)ownerID ownerDomain:(NSString * _Nonnull)ownerDomain fileSize:(long long)fileSize;
 + (LTStorageAction *)createUploadFileActionWithRemotePath:(NSString * _Nonnull)remotePath fileName:(NSString * _Nonnull)fileName contentType:(NSString * _Nonnull)contentType  fileData:(NSData * _Nonnull)fileData expireMinute:(NSInteger)expireMinute ownerID:(NSString * _Nonnull)ownerID ownerDomain:(NSString * _Nonnull)ownerDomain fileSize:(long long)fileSize;
 + (LTStorageAction *)createDeleteFileActionWithRemotePath:(NSString * _Nonnull)remotePath fileName:(NSString * _Nonnull)fileName contentType:(NSString * _Nonnull)contentType endpointName:(NSString * _Nonnull)endpointName expireMinute:(NSInteger)expireMinute ownerID:(NSString * _Nonnull)ownerID ownerDomain:(NSString * _Nonnull)ownerDomain;
+
++ (LTStorageAction *)createDownloadLinkActionWithLTFileInfo:(LTFileInfo * _Nonnull)fileInfo;
++ (LTStorageAction *)createDownloadFileActionWithLTFileInfo:(LTFileInfo * _Nonnull)fileInfo storePath:(NSString * _Nonnull)storePath;
++ (LTStorageAction *)createUploadLinkActionWithLTFileInfo:(LTFileInfo * _Nonnull)fileInfo fileSize:(long long)fileSize;
++ (LTStorageAction *)createUploadFileActionWithLTFileInfo:(LTFileInfo * _Nonnull)fileInfo fileData:(NSData * _Nonnull)fileData fileSize:(long long)fileSize;
++ (LTStorageAction *)createDeleteFileActionWithLTFileInfo:(LTFileInfo * _Nonnull)fileInfo;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
