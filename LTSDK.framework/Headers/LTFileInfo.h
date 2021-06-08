@@ -18,15 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (strong, nonatomic) NSString *fileContentType;
 
-//@property (strong, nonatomic) NSString *thumbnailName;
-
-//@property (strong, nonatomic) NSString *remoteThumbnailPath;
-
-//@property (strong, nonatomic) NSString *thumbnailContentType;
-
 @property (assign, nonatomic) long long fileSize;
-
-//@property (assign, nonatomic) long long thumbnailSize;
 
 @property (strong, nonatomic) NSString *storageID;
 
@@ -35,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) NSString *endpointName;
 
 @property (assign, nonatomic) long long updateTime;
+
+@property (assign, nonatomic) BOOL isExist;
 
 + (LTFileInfo *)createWithProfileImageID:(NSString *)profileImageID userID:(NSString *)userID updateTime:(long long)updateTime;
 

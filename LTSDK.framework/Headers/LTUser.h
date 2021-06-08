@@ -51,6 +51,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, strong) NSString *enterpriseID;
 @property (nullable, nonatomic, strong) Logo *logo;
 @property (nonatomic, assign) BOOL isAllowOuterChat;
+@property (nonatomic, assign) BOOL isAllowVideo;
 @property (nullable, nonatomic, strong) NSNumber *accExp;
 @property (nonatomic, assign) NSInteger channelSpecial;
 @property (nullable, nonatomic, strong) NSArray<SearchID *> *searchID;
