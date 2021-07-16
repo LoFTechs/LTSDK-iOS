@@ -35,7 +35,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (BOOL)canUseStorage;
 - (BOOL)canUseVoice;
-- (BOOL)canUseVideo;
 - (BOOL)canUseIM;
 - (BOOL)isPixAccount;
 
