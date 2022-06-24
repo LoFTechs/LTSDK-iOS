@@ -49,7 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LTResponse : NSObject
 
-@property (nonatomic, strong) NSString *returnMessage;
+@property (nonatomic, strong, nullable) NSString *returnMessage;
 @property (nonatomic, assign) LTReturnCode returnCode;
 
 @end

@@ -23,24 +23,24 @@ typedef NS_ENUM(NSInteger, LTCallKitProxyState) {
 
 @protocol LTCallKitProxyDelegate <NSObject>
 @optional
-- (void)LTCallKitProxyCallChanged:(id<LTCallKitDelegate>_Nonnull)delegate callState:(LTCallKitProxyState)callState;
+- (void)LTCallKitProxyCallChanged:(id<LTCallKitDelegate>_Nullable)delegate callState:(LTCallKitProxyState)callState;
 @end
 
 @interface LTCallKitProxy : NSObject
-@property (strong, nonatomic) id<LTCallKitProxyDelegate> delegate;
+@property (strong, nonatomic, nullable) id<LTCallKitProxyDelegate> delegate;
 + (LTCallKitProxy *)sharedInstance;
 
 #pragma mark - config
 
-- (void)configureProviderWithLocalizedName:(NSString *_Nonnull)localizedName ringtoneSound:(NSString *_Nonnull)ringtoneSound iconTemplateImage:(UIImage *_Nonnull)iconTemplateImage;
-- (void)configAudioSession:(AVAudioSession *_Nonnull)audioSession;
+- (void)configureProviderWithLocalizedName:(NSString *)localizedName ringtoneSound:(NSString *)ringtoneSound iconTemplateImage:(UIImage *)iconTemplateImage;
+- (void)configAudioSession:(AVAudioSession *)audioSession;
 
 #pragma mark - callkit operation
 
 - (BOOL)isCallKitActivated;
 - (BOOL)containsDelegate:(id<LTCallKitDelegate> _Nullable)call;
 - (void)startOutgoingCall:(id<LTCallKitDelegate> _Nullable)call update:(CXCallUpdate *_Nullable)update;
-- (void)startIncomingCallWithUpdate:(CXCallUpdate *)callUpdate completion:(id<LTCallKitDelegate> _Nullable (^)(NSError *_Nullable error, NSUUID *_Nullable callUUID))completion;
+- (void)startIncomingCallWithUpdate:(CXCallUpdate * _Nullable)callUpdate completion:(id<LTCallKitDelegate> _Nullable (^_Nullable)(NSError *_Nullable error, NSUUID *_Nullable callUUID))completion;
 
 - (void)muteCall:(id<LTCallKitDelegate> _Nullable)call muted:(BOOL)muted;
 - (void)heldCall:(id<LTCallKitDelegate> _Nullable)call onHold:(BOOL)onHold;
@@ -56,8 +56,8 @@ typedef NS_ENUM(NSInteger, LTCallKitProxyState) {
 
 - (void)reportCall:(id<LTCallKitDelegate> _Nullable)call displayName:(NSString *_Nullable)displayName;//deprecated
 - (void)reportCall:(id<LTCallKitDelegate> _Nullable)call endedAtDate:(NSDate *_Nullable)dateEnded reason:(CXCallEndedReason)endedReason;
-- (void)reportCall:(id<LTCallKitDelegate>)delegate update:(CXCallUpdate *)callUpdate;
-- (void)reportCallWithUUID:(NSUUID *_Nullable)callUUID update:(CXCallUpdate *)callUpdate;
+- (void)reportCall:(id<LTCallKitDelegate> _Nullable)delegate update:(CXCallUpdate * _Nullable)callUpdate;
+- (void)reportCallWithUUID:(NSUUID *_Nullable)callUUID update:(CXCallUpdate * _Nullable)callUpdate;
 
 @end
 

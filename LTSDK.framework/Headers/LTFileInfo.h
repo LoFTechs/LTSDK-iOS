@@ -12,19 +12,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LTFileInfo : NSObject
 
-@property (strong, nonatomic) NSString *fileName;
+@property (strong, nonatomic, nullable) NSString *fileName;
 
-@property (strong, nonatomic) NSString *remoteFilePath;
+@property (strong, nonatomic, nullable) NSString *remoteFilePath;
 
-@property (strong, nonatomic) NSString *fileContentType;
+@property (strong, nonatomic, nullable) NSString *fileContentType;
 
 @property (assign, nonatomic) long long fileSize;
 
-@property (strong, nonatomic) NSString *storageID;
+@property (strong, nonatomic, nullable) NSString *storageID;
 
-@property (strong, nonatomic) NSString *storageDomain;
+@property (strong, nonatomic, nullable) NSString *storageDomain;
 
-@property (strong, nonatomic) NSString *endpointName;
+@property (strong, nonatomic, nullable) NSString *endpointName;
 
 @property (assign, nonatomic) long long updateTime;
 
