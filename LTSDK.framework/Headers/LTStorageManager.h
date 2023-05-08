@@ -3,13 +3,13 @@
 //  LTSDK
 //
 //  Created by Sheng-Tsang Uou on 2020/6/15.
-//  Copyright © 2020 Sheng-Tsang Uou. All rights reserved.
+//  Copyright © 2020 LoFTech. All rights reserved.
 //
 
-#import "LTUser.h"
-#import "LTStorageAction.h"
-#import "LTStorageResult.h"
-#import "LTResponse.h"
+#import <LTSDK/LTResponse.h>
+#import <LTSDK/LTStorageAction.h>
+#import <LTSDK/LTStorageResult.h>
+#import <LTSDK/LTUser.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

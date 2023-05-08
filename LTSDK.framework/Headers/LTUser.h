@@ -3,7 +3,7 @@
 //  LTSDK
 //
 //  Created by Sheng-Tsang Uou on 2020/5/21.
-//  Copyright © 2020 Sheng-Tsang Uou. All rights reserved.
+//  Copyright © 2020 LoFTech. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -44,6 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JoinedCompany : NSObject
 
+@property (nullable, nonatomic, strong) NSString *countryCode;
 @property (nullable, nonatomic, strong) NSString *corpID;
 @property (nullable, nonatomic, strong) NSString *corpUID;
 @property (nullable, nonatomic, strong) NSString *name;

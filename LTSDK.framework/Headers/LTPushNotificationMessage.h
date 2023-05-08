@@ -3,7 +3,7 @@
 //  LTSDK
 //
 //  Created by Sheng-Tsang Uou on 2020/11/23.
-//  Copyright © 2020 Sheng-Tsang Uou. All rights reserved.
+//  Copyright © 2020 LoFTech. All rights reserved.
 //
 
 #import <LTSDK/LTBaseMessageResponse.h>

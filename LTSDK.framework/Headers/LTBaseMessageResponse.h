@@ -3,7 +3,7 @@
 //  LTSDK
 //
 //  Created by shanezhang on 2020/9/17.
-//  Copyright © 2020 Sheng-Tsang Uou. All rights reserved.
+//  Copyright © 2020 LoFTech. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
