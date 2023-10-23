@@ -14,6 +14,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+
 @interface LTUser : NSObject
 
 @property(nullable, nonatomic, strong) NSString *userID;
@@ -31,7 +32,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nullable, nonatomic, strong) NSArray<NSString *> *exitCodeList;
 @property(nonatomic, assign) BOOL whitelist;
 @property(nullable, nonatomic, strong) NSArray<NSString *> *overseasCallList;
+@property(nullable, nonatomic, strong) NSDictionary *customs;
 @property(nullable, nonatomic, strong) NSArray<JoinedCompany *> *joinedCompanies;
+@property(nullable, nonatomic, strong) NSString *dbUser;
 
 - (BOOL)canUseStorage;
 - (BOOL)canUseVoice;

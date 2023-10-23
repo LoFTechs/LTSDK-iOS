@@ -23,6 +23,7 @@ FOUNDATION_EXPORT const unsigned char LTSDKVersionString[];
 #import <LTSDK/LTSDKOptions.h>
 #import <LTSDK/LTStorageManager.h>
 #import <LTSDK/LTUser.h>
+#import <LTSDK/LTPermissionManager.h>
 #import <LTSDK/LTUserStatus.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -72,5 +73,12 @@ NS_ASSUME_NONNULL_BEGIN
 + (LTStorageManager * _Nullable)getStorageManagerWithUserID:(NSString * _Nonnull)userID;
 
 @end
+
+@interface LTSDK(PermissionManager)
+
++ (LTPermissionManager * _Nullable)getPermissionManager;
+
+@end
+
 
 NS_ASSUME_NONNULL_END

@@ -16,6 +16,10 @@
 		<data>
 		KJRMgxRfusNCu/qxCnARUBVo2wM=
 		</data>
+		<key>Headers/LTPermissionManager.h</key>
+		<data>
+		ElzvYNWEA3tnu3WvuWwhw6cowmM=
+		</data>
 		<key>Headers/LTPushNotificationMessage.h</key>
 		<data>
 		s8g2C+Ndf4ocAQFcfZCoH65Ixes=
@@ -26,7 +30,7 @@
 		</data>
 		<key>Headers/LTSDK.h</key>
 		<data>
-		GXh1BjAPnP6KPz8YU9yFH4aH/J4=
+		AhmsQY6Ggwly9wLekGdxredVfEI=
 		</data>
 		<key>Headers/LTSDKOptions.h</key>
 		<data>
@@ -46,7 +50,7 @@
 		</data>
 		<key>Headers/LTUser.h</key>
 		<data>
-		GIOwWw5uCdj5Uzhw4FifLUkFj5Q=
+		57i8wM341y9sY2x2ktxK7vVfB5I=
 		</data>
 		<key>Headers/LTUserStatus.h</key>
 		<data>
@@ -54,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		K8sLpt8znhej4I3GQO+n0zDVtyU=
+		FS5WczLuXa6riu+n+q2Dqw1ov+k=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -62,11 +66,11 @@
 		</data>
 		<key>LTSDK.momd/JKSDK.mom</key>
 		<data>
-		Y3/4CPeEMFX5IaR/7rLZhSP2JhI=
+		ZTVCp0yRXahcJCL6u1/B4BQRtPY=
 		</data>
 		<key>LTSDK.momd/JKSDK200929.1.mom</key>
 		<data>
-		kl/OBKfNDjKAoqEy3JXzx1WzuoA=
+		5uUk6jJsTuxWYX1UbZNDrD+CB9Q=
 		</data>
 		<key>LTSDK.momd/JKSDK200929.1.omo</key>
 		<data>
@@ -74,11 +78,11 @@
 		</data>
 		<key>LTSDK.momd/VersionInfo.plist</key>
 		<data>
-		HuztzB5tAbUFfQDxfvUFzuQuKoY=
+		Cg+9aqlWD6MxjZuGV7dkAVaOa2o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		AEzWEl2WIpITHpnYUD3ejrCbUQA=
+		yrZ2JIT98KjrYk5DzHdClxxgKQk=
 		</data>
 		<key>jsonata.js</key>
 		<data>
@@ -120,6 +124,17 @@
 			sx96YGq6H7KcKW2IXzUUKFY7iybz2UUAdKqo8vbo8OA=
 			</data>
 		</dict>
+		<key>Headers/LTPermissionManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ElzvYNWEA3tnu3WvuWwhw6cowmM=
+			</data>
+			<key>hash2</key>
+			<data>
+			d9d047smZLQ+Uye5mKcTutWfLio/5O7kGRLDwaUv65U=
+			</data>
+		</dict>
 		<key>Headers/LTPushNotificationMessage.h</key>
 		<dict>
 			<key>hash</key>
@@ -146,11 +161,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GXh1BjAPnP6KPz8YU9yFH4aH/J4=
+			AhmsQY6Ggwly9wLekGdxredVfEI=
 			</data>
 			<key>hash2</key>
 			<data>
-			maLUa1/cVSALr88a6i5GiSh9q7JzO7B9ojwaT43qTXs=
+			1/1pMfOoZQvubWLPgeWhCnMXcmPZSeC42NIp6D9nJVk=
 			</data>
 		</dict>
 		<key>Headers/LTSDKOptions.h</key>
@@ -201,11 +216,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GIOwWw5uCdj5Uzhw4FifLUkFj5Q=
+			57i8wM341y9sY2x2ktxK7vVfB5I=
 			</data>
 			<key>hash2</key>
 			<data>
-			xkw7ZXDfQGrNDbZz8GButr1No7tsAqgHXsC95TDJbC4=
+			2Z6WuX34MQVnYSDEk49pTKxb+jBWqKqSrRmzW/cH5as=
 			</data>
 		</dict>
 		<key>Headers/LTUserStatus.h</key>
@@ -234,22 +249,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y3/4CPeEMFX5IaR/7rLZhSP2JhI=
+			ZTVCp0yRXahcJCL6u1/B4BQRtPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			tlxCEgIYfQeNIMVXuAOmyyro720CXyJxjuUCV9d8xks=
+			aR3yt7FTpE4fnhoOrzUUHFQOY7r4kD7txLzNi9/d70s=
 			</data>
 		</dict>
 		<key>LTSDK.momd/JKSDK200929.1.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kl/OBKfNDjKAoqEy3JXzx1WzuoA=
+			5uUk6jJsTuxWYX1UbZNDrD+CB9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kz8uZN1q8T2NaEtsCyqtqjzav9afR3uqqnVGP2BkyS8=
+			wwVwpQPcU7tliBGuCVswKd3dcbwLRlqvyBFIHhIdgLw=
 			</data>
 		</dict>
 		<key>LTSDK.momd/JKSDK200929.1.omo</key>
@@ -267,22 +282,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HuztzB5tAbUFfQDxfvUFzuQuKoY=
+			Cg+9aqlWD6MxjZuGV7dkAVaOa2o=
 			</data>
 			<key>hash2</key>
 			<data>
-			BIldSIiBN0BBdPvn4BEUl1yVbVky0813HWajnlAlQVA=
+			fe1zUFG0fy6ZAMjzSLVPQ845OFwIU4aIwV4eDSNcVdg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AEzWEl2WIpITHpnYUD3ejrCbUQA=
+			yrZ2JIT98KjrYk5DzHdClxxgKQk=
 			</data>
 			<key>hash2</key>
 			<data>
-			dG0QL7gE+ddhL+CAeOqWxsxDYpSHFVSz5OOCVe36YOg=
+			xJNjB4yDnzY7xLFoYFglPbZ5Z/Ckslp4BGof4waxVN8=
 			</data>
 		</dict>
 		<key>jsonata.js</key>
