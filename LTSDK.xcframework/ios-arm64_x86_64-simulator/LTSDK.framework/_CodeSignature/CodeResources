@@ -58,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FS5WczLuXa6riu+n+q2Dqw1ov+k=
+		+4d/pMnY6QHch3CcMii6LcqP9yo=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -83,6 +83,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		yrZ2JIT98KjrYk5DzHdClxxgKQk=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		noUqaPIaTKZt6oruyu6joyaIQrg=
 		</data>
 		<key>jsonata.js</key>
 		<data>
@@ -298,6 +302,17 @@
 			<key>hash2</key>
 			<data>
 			xJNjB4yDnzY7xLFoYFglPbZ5Z/Ckslp4BGof4waxVN8=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			noUqaPIaTKZt6oruyu6joyaIQrg=
+			</data>
+			<key>hash2</key>
+			<data>
+			q3ccmqdjwEXFBD7AApJDy3hymeriE1fvd1PchxZ00UM=
 			</data>
 		</dict>
 		<key>jsonata.js</key>
